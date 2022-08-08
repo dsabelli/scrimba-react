@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#h3-1 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  padding: 0.5rem 0;
+}
+.h1s {
+  display: flex;
+}
+
+h1 {
+  font-size: 2.4rem;
+  padding-bottom: 0.5rem;
+  margin-right: 0.4rem;
+}
+.p-text {
+  font-size: 0.8rem;
+}
+.playing-to-container {
+  margin: 0.7rem 0;
+  display: flex;
+  align-items: center;
+}
+#h2-1 {
+  font-weight: 700;
+}
+.playing-to-container > select {
+  margin: 0 1rem;
+}
+
+.btn-container {
+  margin: 1rem 0;
+  display: grid;
+  min-height: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#btn-1 {
+  background-color: teal;
+}
+
+#btn-2 {
+  background-color: blue;
+}
+
+#btn-3 {
+  background-color: tomato;
+}
